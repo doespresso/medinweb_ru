@@ -37,10 +37,10 @@ if (PHP_INT_SIZE == 4 && (substr(ini_get('memory_limit'), 0, -1) < "64")) {
 /*
  * Database connection options
  */
-$config['db_host'] = '%DB_HOST%';
-$config['db_name'] = '%DB_NAME%';
-$config['db_user'] = '%DB_USER%';
-$config['db_password'] = '%DB_PASSWORD%';
+$config['db_host'] = 'localhost';
+$config['db_name'] = 'medinweb';
+$config['db_user'] = 'root';
+$config['db_password'] = '';
 
 $config['database_backend'] = 'mysqli';
 
@@ -62,12 +62,12 @@ $config['table_prefix'] = 'cscart_';
  */
 
 // Host and directory where software is installed on no-secure server
-$config['http_host'] = '%HTTP_HOST%';
-$config['http_path'] = '%HOST_DIR%';
+$config['http_host'] = 'medinweb.ru';
+$config['http_path'] = '';
 
 // Host and directory where software is installed on secure server
-$config['https_host'] = '%HTTPS_HOST%';
-$config['https_path'] = '%HOST_DIR%';
+$config['https_host'] = 'medinweb.ru';
+$config['https_path'] = '';
 
 /*
  * Misc options
@@ -92,7 +92,7 @@ $config['tweaks'] = array (
 );
 
 // Key for sensitive data encryption
-$config['crypt_key'] = 'YOURVERYSECRETKEY';
+$config['crypt_key'] = 'uFTXCkM2ax';
 
 // Cache backend
 // Available backends: file, sqlite, database, redis
