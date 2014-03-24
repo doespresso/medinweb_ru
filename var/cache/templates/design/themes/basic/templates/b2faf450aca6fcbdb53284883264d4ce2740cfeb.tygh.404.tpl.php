@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 17:17:09
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 22:03:17
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/blocks/static_templates/404.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1201675297532eded55fc8f4-74090310%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1334057678532f21e5a09983-77795802%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1201675297532eded55fc8f4-74090310',
+  'nocache_hash' => '1334057678532f21e5a09983-77795802',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532eded57e4ca5_40309959',
+  'unifunc' => 'content_532f21e5be4f41_43148234',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532eded57e4ca5_40309959')) {function content_532eded57e4ca5_40309959($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
+<?php if ($_valid && !is_callable('content_532f21e5be4f41_43148234')) {function content_532f21e5be4f41_43148234($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
 ?><?php
 fn_preload_lang_vars(array('exception_error','exception_title','access_denied_text','page_not_found_text','exception_error_code','access_denied','page_not_found','go_to_the_homepage','go_back','exception_error','exception_title','access_denied_text','page_not_found_text','exception_error_code','access_denied','page_not_found','go_to_the_homepage','go_back'));
 ?>

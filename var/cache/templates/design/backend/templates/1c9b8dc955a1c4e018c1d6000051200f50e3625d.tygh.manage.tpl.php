@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 16:08:20
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:54:40
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/block_manager/manage.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:781244884532eceb41f1e96-81750567%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:613832428532f1fe0ea8d99-57638035%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '781244884532eceb41f1e96-81750567',
+  'nocache_hash' => '613832428532f1fe0ea8d99-57638035',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532eceb466ae33_34305004',
+  'unifunc' => 'content_532f1fe141ed40_10442959',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532eceb466ae33_34305004')) {function content_532eceb466ae33_34305004($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
+<?php if ($_valid && !is_callable('content_532f1fe141ed40_10442959')) {function content_532f1fe141ed40_10442959($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 if (!is_callable('smarty_function_style')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.style.php';
 if (!is_callable('smarty_function_render_location')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.render_location.php';
 if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';

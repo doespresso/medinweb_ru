@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:09:19
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:30
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/common/fileuploader.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:106694498532ec0dfef27f8-09948194%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2007225745532f1d06289f18-92971497%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '106694498532ec0dfef27f8-09948194',
+  'nocache_hash' => '2007225745532f1d06289f18-92971497',
   'function' => 
   array (
   ),
@@ -41,9 +41,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec0e027fe03_01418044',
+  'unifunc' => 'content_532f1d066143d8_64616148',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec0e027fe03_01418044')) {function content_532ec0e027fe03_01418044($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
+<?php if ($_valid && !is_callable('content_532f1d066143d8_64616148')) {function content_532f1d066143d8_64616148($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 ?><?php
 fn_preload_lang_vars(array('remove_this_item','remove_this_item','remove_this_item','remove_this_item','text_select_file','upload_another_file','local','server','url','text_allowed_to_upload_file_extension','file_is_too_large'));
@@ -54,7 +54,7 @@ fn_preload_lang_vars(array('remove_this_item','remove_this_item','remove_this_it
 
 
 <?php ob_start();?><?php echo htmlspecialchars(md5($_smarty_tpl->tpl_vars['var_name']->value), ENT_QUOTES, 'UTF-8');?>
-<?php $_tmp2=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["id_var_name"] = new Smarty_variable(((string)$_smarty_tpl->tpl_vars['prefix']->value).$_tmp2, null, 0);?>
+<?php $_tmp1=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["id_var_name"] = new Smarty_variable(((string)$_smarty_tpl->tpl_vars['prefix']->value).$_tmp1, null, 0);?>
 
 <div class="fileuploader cm-field-container">
 <input type="hidden" id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['label_id']->value, ENT_QUOTES, 'UTF-8');?>

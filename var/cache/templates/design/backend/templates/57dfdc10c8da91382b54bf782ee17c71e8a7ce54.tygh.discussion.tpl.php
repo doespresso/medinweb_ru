@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 17:00:43
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 12:37:45
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/addons/discussion/views/discussion_manager/components/discussion.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1091466763532edafbe9c805-20928542%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1285932053532feed9e95a01-50519240%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1091466763532edafbe9c805-20928542',
+  'nocache_hash' => '1285932053532feed9e95a01-50519240',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532edafc1f10c5_94914264',
+  'unifunc' => 'content_532feeda202194_99353970',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532edafc1f10c5_94914264')) {function content_532edafc1f10c5_94914264($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
+<?php if ($_valid && !is_callable('content_532feeda202194_99353970')) {function content_532feeda202194_99353970($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 ?><?php
 fn_preload_lang_vars(array('add_post','add_post','no_data','general','name','your_rating','your_message','add','new_post','text_enabled_testimonials_notice'));

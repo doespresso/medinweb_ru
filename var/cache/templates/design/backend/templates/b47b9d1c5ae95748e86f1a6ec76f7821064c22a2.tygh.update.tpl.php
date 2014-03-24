@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 17:00:42
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 12:37:44
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/categories/update.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1214957696532edafaf320a4-16569628%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:669220136532feed8da91f2-34099877%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1214957696532edafaf320a4-16569628',
+  'nocache_hash' => '669220136532feed8da91f2-34099877',
   'function' => 
   array (
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532edafb6428a4_41759495',
+  'unifunc' => 'content_532feed9539702_60011258',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532edafb6428a4_41759495')) {function content_532edafb6428a4_41759495($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_532feed9539702_60011258')) {function content_532feed9539702_60011258($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 ?><?php
 fn_preload_lang_vars(array('information','name','location','root_level','location','root_level','description','images','text_category_icon','text_category_detailed_image','seo_meta_data','page_title','ttc_page_title','meta_description','meta_keywords','availability','usergroups','ttc_usergroups','to_all_subcats','position','creation_date','product_details_layout','tt_views_categories_update_product_details_layout','use_custom_layout','product_columns','available_layouts','default_category_layout','add_subcategory','add_product','preview','view_products','delete_this_category','categories','new_category','editing_category'));
 ?>

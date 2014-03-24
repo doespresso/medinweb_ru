@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:07:35
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:34
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/blocks/my_account.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:892200999532ec077505df1-03781946%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1320396980532f1d0a7c3e34-20896809%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '892200999532ec077505df1-03781946',
+  'nocache_hash' => '1320396980532f1d0a7c3e34-20896809',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec0779f0872_86724700',
+  'unifunc' => 'content_532f1d0acaec50_49124357',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec0779f0872_86724700')) {function content_532ec0779f0872_86724700($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_532f1d0acaec50_49124357')) {function content_532f1d0acaec50_49124357($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
 ?><?php
 fn_preload_lang_vars(array('profile_details','downloads','orders','view_compare_list','apply_for_vendor_account','track_my_order','track_my_order','order_id','email','go','sign_out','sign_in','register','sign_in','profile_details','downloads','orders','view_compare_list','apply_for_vendor_account','track_my_order','track_my_order','order_id','email','go','sign_out','sign_in','register','sign_in'));

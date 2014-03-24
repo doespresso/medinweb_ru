@@ -1,3 +1,4 @@
+<div class="top-header">
 {if $containers.top_panel}
     <div class="tygh-top-panel clearfix">
         {$containers.top_panel nofilter}
@@ -9,7 +10,11 @@
         {$containers.header nofilter}
     </div>
 {/if}
+</div>
 
+<div id="full-slider" class="full-slider">
+
+</div>
 {if $containers.content}
     <div class="tygh-content clearfix">
         {$containers.content nofilter}

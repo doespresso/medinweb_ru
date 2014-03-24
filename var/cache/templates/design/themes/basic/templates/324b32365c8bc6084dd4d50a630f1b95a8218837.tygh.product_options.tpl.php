@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:10:09
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 12:22:36
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/views/products/components/product_options.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:832868115532ec111d1ef99-34472280%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:404565645532feb4c8971a6-89523217%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '832868115532ec111d1ef99-34472280',
+  'nocache_hash' => '404565645532feb4c8971a6-89523217',
   'function' => 
   array (
   ),
@@ -43,9 +43,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec113086480_41989675',
+  'unifunc' => 'content_532feb4dd092d0_05481560',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec113086480_41989675')) {function content_532ec113086480_41989675($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_532feb4dd092d0_05481560')) {function content_532feb4dd092d0_05481560($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
 ?><?php
 fn_preload_lang_vars(array('select_option_above','please_select_one','na','please_select_one','select_option_above','na','nocombination','select_option_above','please_select_one','na','please_select_one','select_option_above','na','nocombination'));

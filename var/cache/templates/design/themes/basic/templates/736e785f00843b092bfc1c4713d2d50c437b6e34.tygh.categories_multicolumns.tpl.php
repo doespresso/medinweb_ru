@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 16:59:10
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:36
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/views/categories/components/categories_multicolumns.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1972642204532eda9e2ad007-21559631%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1417691067532f1d0ce97be6-73005115%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1972642204532eda9e2ad007-21559631',
+  'nocache_hash' => '1417691067532f1d0ce97be6-73005115',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532eda9e4ac4c1_26769510',
+  'unifunc' => 'content_532f1d0d146df1_79628656',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532eda9e4ac4c1_26769510')) {function content_532eda9e4ac4c1_26769510($_smarty_tpl) {?><?php if (!is_callable('smarty_function_split')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.split.php';
+<?php if ($_valid && !is_callable('content_532f1d0d146df1_79628656')) {function content_532f1d0d146df1_79628656($_smarty_tpl) {?><?php if (!is_callable('smarty_function_split')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.split.php';
 if (!is_callable('smarty_function_math')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/lib/other/smarty/plugins/function.math.php';
 if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
 ?><?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&@constant('AREA')=="C") {?><?php $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start(); ?><?php echo smarty_function_split(array('data'=>$_smarty_tpl->tpl_vars['categories']->value,'size'=>(($tmp = @$_smarty_tpl->tpl_vars['columns']->value)===null||$tmp==='' ? "3" : $tmp),'assign'=>"splitted_categories"),$_smarty_tpl);?>

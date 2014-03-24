@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 14:59:14
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:31
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/menu.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1075751401532ebe82d7a2e9-15485848%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1035185293532f1d07957e20-55246158%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1075751401532ebe82d7a2e9-15485848',
+  'nocache_hash' => '1035185293532f1d07957e20-55246158',
   'function' => 
   array (
     'menu_attrs' => 
@@ -54,9 +54,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ebe8346e802_71710213',
+  'unifunc' => 'content_532f1d08069429_72213846',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ebe8346e802_71710213')) {function content_532ebe8346e802_71710213($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_532f1d08069429_72213846')) {function content_532f1d08069429_72213846($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.truncate.php';
 if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 ?><?php
 fn_preload_lang_vars(array('all_vendors','view_storefront','storefront_url_not_defined','manage_stores','vendor','manage_stores','view_storefront','vendor','manage_vendors','signed_in_as','edit_profile','sign_out','feedback_values','send_feedback','search_tooltip','go'));

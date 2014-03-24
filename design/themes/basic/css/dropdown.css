@@ -111,8 +111,8 @@ ul.dropdown-vertical ul *.dir:hover {
     background-position: right -62px;
 }
 ul.dropdown-vertical > li:hover {
-    margin-top: -1px;
-    border-top: 1px solid #ccc;
+    /*margin-top: -1px;*/
+    /*border-top: 1px solid #ccc;*/
     background-color: #fff;
 }
 ul.dropdown-vertical ul li:hover > a {
@@ -214,6 +214,7 @@ ul.dropdown-vertical.rtl ul {
     display: block;
     margin: 0 auto;
     *z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 ul.dropdown-multicolumns {
     margin: 0px auto 0px auto;
@@ -354,11 +355,11 @@ ul.dropdown-multicolumns li.right:hover {
 .dropdown-multicolumns li:hover .dropdown-4columns,
 .dropdown-multicolumns li:hover .dropdown-5columns {
     top: 25px;
-    left: -1px;
+    left: 0px;
 }
 .dropdown-multicolumns li:hover .dropdown-fullwidth {
     left: 0px;
-    top: 32px;
+    top: 30px;
     display: block;
     border-top: 0px;
 }

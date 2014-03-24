@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:07:32
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 23:39:42
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2012242339532ec074924116-37599436%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:591531254532f1d0700eb53-18576542%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fee13141aba62f01c155e51e2799c50e676803c7' => 
     array (
       0 => '/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/index.tpl',
-      1 => 1395572330,
+      1 => 1395603563,
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '2012242339532ec074924116-37599436',
+  'nocache_hash' => '591531254532f1d0700eb53-18576542',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_532f1d07215135_32064227',
   'variables' => 
   array (
     'page_title' => 0,
@@ -26,10 +28,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'runtime' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec074aea993_08676914',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec074aea993_08676914')) {function content_532ec074aea993_08676914($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_532f1d07215135_32064227')) {function content_532f1d07215135_32064227($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_function_render_location')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.render_location.php';
 ?><?php
 fn_preload_lang_vars(array('on_site_template_editing','on_site_text_editing'));
@@ -85,7 +85,7 @@ if (!empty($_capture_buffer)) {
 
 </head>
 
-<body>
+<body<?php if ($_REQUEST['dispatch']=='index.index') {?> class="homepage"<?php } else { ?> class="page"<?php }?>>
 <?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']) {?>
     <?php echo $_smarty_tpl->getSubTemplate ("common/toolbar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('title'=>__("on_site_template_editing"),'href'=>"customization.disable_mode?type=design"), 0);?>
 
@@ -104,7 +104,6 @@ if (!empty($_capture_buffer)) {
 <?php echo $_smarty_tpl->getSubTemplate ("common/loading_box.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("common/notification.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
 
 <div class="helper-container" id="tygh_main_container">
     <?php $_smarty_tpl->smarty->_tag_stack[] = array('hook', array('name'=>"index:content")); $_block_repeat=true; echo smarty_block_hook(array('name'=>"index:content"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>

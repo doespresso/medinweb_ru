@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:07:34
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 09:57:26
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/common/scripts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:813749071532ec0760c8f50-34944370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1434337344532f1d08ebfcc7-67129657%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4d8a4d2388a61622ecf5708db19c9ca9848880b4' => 
     array (
       0 => '/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/common/scripts.tpl',
-      1 => 1395572330,
+      1 => 1395640642,
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '813749071532ec0760c8f50-34944370',
+  'nocache_hash' => '1434337344532f1d08ebfcc7-67129657',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_532f1d09652e26_40960582',
   'variables' => 
   array (
     'runtime' => 0,
@@ -27,10 +29,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'auth' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec0766bda14_61555974',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec0766bda14_61555974')) {function content_532ec0766bda14_61555974($_smarty_tpl) {?><?php if (!is_callable('smarty_block_scripts')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.scripts.php';
+<?php if ($_valid && !is_callable('content_532f1d09652e26_40960582')) {function content_532f1d09652e26_40960582($_smarty_tpl) {?><?php if (!is_callable('smarty_block_scripts')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.scripts.php';
 if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
@@ -56,6 +56,7 @@ fn_preload_lang_vars(array('cannot_buy','no_products_selected','error_no_items_s
 <?php echo smarty_function_script(array('src'=>"js/lib/tools/tooltip.min.js"),$_smarty_tpl);?>
 
 <?php echo smarty_function_script(array('src'=>"js/lib/appear/jquery.appear-1.1.1.js"),$_smarty_tpl);?>
+
 
 
 <script type="text/javascript">
@@ -223,6 +224,7 @@ if (!empty($_capture_buffer)) {
 <?php echo smarty_function_script(array('src'=>"js/lib/tools/tooltip.min.js"),$_smarty_tpl);?>
 
 <?php echo smarty_function_script(array('src'=>"js/lib/appear/jquery.appear-1.1.1.js"),$_smarty_tpl);?>
+
 
 
 <script type="text/javascript">

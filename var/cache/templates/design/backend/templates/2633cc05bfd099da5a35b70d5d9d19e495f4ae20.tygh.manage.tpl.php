@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 16:34:55
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:29
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/template_editor/manage.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1346368832532ed4ef2d0150-81220066%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:844517088532f1d053aeb56-03279010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1346368832532ed4ef2d0150-81220066',
+  'nocache_hash' => '844517088532f1d053aeb56-03279010',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ed4ef5f00c6_15242124',
+  'unifunc' => 'content_532f1d05ab51a5_49082948',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ed4ef5f00c6_15242124')) {function content_532ed4ef5f00c6_15242124($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
+<?php if ($_valid && !is_callable('content_532f1d05ab51a5_49082948')) {function content_532f1d05ab51a5_49082948($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 if (!is_callable('smarty_function_style')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.style.php';
 ?><?php
 fn_preload_lang_vars(array('text_restore_question','nothing_selected','open_file_or_create_new','new_file','create_file','could_not_open_file','select_file','upload','name','name','change_permissions','on_site_template_editing','restore_from_repository','change_permissions','download','rename','delete','rebuild_cache_automatically','rebuild_cache_automatically_tooltip','theme','new_file','create_file','new_folder','create_folder','upload_file','upload_file','create','template_editor'));

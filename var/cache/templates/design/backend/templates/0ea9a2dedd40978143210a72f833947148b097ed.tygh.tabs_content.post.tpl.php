@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 17:00:43
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 12:37:45
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/addons/reward_points/hooks/categories/tabs_content.post.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:834057584532edafbd3d7e9-14350853%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:135210505532feed9d02bc4-39725451%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '834057584532edafbd3d7e9-14350853',
+  'nocache_hash' => '135210505532feed9d02bc4-39725451',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532edafbe5de86_06663597',
+  'unifunc' => 'content_532feed9e555c9_20568062',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532edafbe5de86_06663597')) {function content_532edafbe5de86_06663597($_smarty_tpl) {?><?php
+<?php if ($_valid && !is_callable('content_532feed9e555c9_20568062')) {function content_532feed9e555c9_20568062($_smarty_tpl) {?><?php
 fn_preload_lang_vars(array('earned_points','override_g_points','usergroup','amount','amount_type','absolute','points_lower','percent'));
 ?>
 <div class="hidden" id="content_reward_points">

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:07:47
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:41
          compiled from "6ba99dd12ffddb9c33fde077c5176c639d6907f6" */ ?>
-<?php /*%%SmartyHeaderCode:576653040532ec083edd7a7-75031564%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1515130998532f1d11c73d14-64732357%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '576653040532ec083edd7a7-75031564',
+  'nocache_hash' => '1515130998532f1d11c73d14-64732357',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec083f0ef71_94044181',
+  'unifunc' => 'content_532f1d11c9ae40_16095075',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec083f0ef71_94044181')) {function content_532ec083f0ef71_94044181($_smarty_tpl) {?><p><span>Демонстрационный магазин</span></p>
+<?php if ($_valid && !is_callable('content_532f1d11c9ae40_16095075')) {function content_532f1d11c9ae40_16095075($_smarty_tpl) {?><p><span>Демонстрационный магазин</span></p>
 <ul>
 <li><a href="<?php echo htmlspecialchars(fn_url("pages.view?page_id=2"), ENT_QUOTES, 'UTF-8');?>
 ">О нас</a></li>

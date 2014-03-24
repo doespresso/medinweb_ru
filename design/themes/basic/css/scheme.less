@@ -127,6 +127,7 @@ h1 .mainbox-title, .mainbox-title span, .product-main-info h1.mainbox-title, .pr
 
 body {
 	background: @general_bg_color;
+    margin:0; padding:0;
 }
 .helper-container {
 	background: @general_bg_image @general_bg_position @general_bg_repeat @general_bg_scroll;
@@ -182,9 +183,9 @@ a, .statistic-list .shipping-edit-link span, .ui-widget-content a, .dropdown-box
 	box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
 }
 .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
-	-webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
-	-moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
-	box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+//	-webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+//	-moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+//	box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
 }
 .drop-shadow-light (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
 	-webkit-box-shadow: @x @y @blur @spread rgba(255, 255, 255, @alpha);
@@ -197,10 +198,10 @@ a, .statistic-list .shipping-edit-link span, .ui-widget-content a, .dropdown-box
 	border-radius: @radius;
 }
 .dropdown-multicolumns, .ui-dialog .ui-dialog-titlebar, .sidebox-important-wrapper .sidebox-title, .step-title-active span.float-left, .notification-content-extended h1, .cm-paging-dots a.active i, .cm-paging-dots a.active:hover i {
-	.gradient (@menu, darken(@menu, 16%));
+	.gradient (@menu, darken(@menu, 5%));
 }
 ul.dropdown-multicolumns > li.active {
-	background-color: lighten(@menu, 4%);
+//	background-color: lighten(@menu, 4%);
 }
 .cm-paging a.active, .cm-paging a:hover.active {
 	background-color: darken(@menu, 5%);
@@ -212,20 +213,23 @@ ul.dropdown-multicolumns > li.active {
 .dropdown-5columns,
 .dropdown-fullwidth,
 ul.dropdown-multicolumns {
-	border-color: darken(@menu, 10%);
+//	border-color: darken(@menu, 10%);
+  border:0;
 }
 ul.dropdown-multicolumns {
-	border-top-color: @menu;
+//	border-top-color: @menu;
 }
 ul.dropdown-multicolumns > li:hover {
 	background-color: #fff;
 }
 ul.dropdown-multicolumns li a {
-	text-shadow: 0 1px 0 darken(@menu, 30%);
-	color: @menu_links;
+//	text-shadow: 0 1px 0 darken(@menu, 30%);
+//	color: @menu_links;
+  text-shadow: none;
+  color: darken(@menu, 60%);
 }
 ul.dropdown-multicolumns li:hover a {
-	color: darken(@menu, 40%);
+	color: darken(@menu, 80%);
 }
 .ui-widget-header .ui-icon-closethick {
 	color: lighten(@menu, 30%);
@@ -341,7 +345,7 @@ body, div, p, .tabs ul li.active a, .tabs ul li.active a:visited, .tabs ul li.ac
 .button-submit-big.button-wrap-left,
 .button-big.button-wrap-left {
 	.gradient (lighten(spin(@primary_button, 7), 10%), @primary_button);
-	.inner-shadow (0, 1px, 0, 0, 0.45);
+//	.inner-shadow (0, 1px, 0, 0, 0.45);
 	border-color: darken(@primary_button, 12%);
 }
 .button-action.button-wrap-left:hover, 
@@ -349,7 +353,7 @@ body, div, p, .tabs ul li.active a, .tabs ul li.active a:visited, .tabs ul li.ac
 .button-submit-big.button-wrap-left:hover,
 .button-big.button-wrap-left:hover {
 	.gradient (lighten(spin(@primary_button, 7), 6%), darken(@primary_button, 4%));
-	.inner-shadow (0, 1px, 0, 0, 0.41);
+//	.inner-shadow (0, 1px, 0, 0, 0.41);
 	border-color: darken(@primary_button, 16%);
 }
 .button-action.button-wrap-left:hover:active, 
@@ -357,7 +361,7 @@ body, div, p, .tabs ul li.active a, .tabs ul li.active a:visited, .tabs ul li.ac
 .button-submit-big.button-wrap-left:hover:active,
 .button-big.button-wrap-left:hover:active {
 	.gradient (darken(@primary_button, 4%), lighten(spin(@primary_button, 7), 6%));
-	.inner-shadow-dark (0, 1px, 3px, 0, 0.2);
+//	.inner-shadow-dark (0, 1px, 3px, 0, 0.2);
 	border-color: darken(@primary_button, 16%);
 }
 .button_text (@b) when (lightness(@b) >= 30%) {
@@ -799,4 +803,60 @@ ul.text-links.text-links-inline li.level-0 > ul, .sort-dropdown, .popup-tools, .
 // Search input
 .helper-container .search-input {
 	.gradient (#f7f7f7, #fdfdfd);
+}
+
+.full-slider{
+display:none;
+}
+
+.homepage{
+
+}
+
+.page{
+  .top-header{background-color: @links;}
+  .tygh-content{padding-top:270px;}
+}
+
+.tygh-content {
+
+}
+
+
+.top-header{
+  position:absolute;
+  width:100%;
+  top:0px;
+  left:0px;
+  z-index:100;
+}
+
+
+.top-grid{
+  background-color: #fff;
+  border:0;
+//border:1px red solid;
+//margin-top: 50px;
+}
+
+.header-grid{
+
+}
+
+
+.top-search{
+  margin: 20px 0;
+  .search-input{
+    font-size: 14px;
+    border:2px #fff solid;
+    background: transparent;
+    &:focus{
+      background: #fff;
+      border:2px #fff solid;
+      -webkit-box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
+    }
+  }
+  .search-magnifier{color:#f0f0f0}
 }

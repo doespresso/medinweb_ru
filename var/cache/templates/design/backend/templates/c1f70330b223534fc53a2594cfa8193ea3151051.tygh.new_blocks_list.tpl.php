@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 16:57:39
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:56:25
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/block_manager/components/new_blocks_list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:418190405532eda43dfe835-88471388%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:272791223532f204965c322-23179182%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '418190405532eda43dfe835-88471388',
+  'nocache_hash' => '272791223532f204965c322-23179182',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532eda43e69052_36004769',
+  'unifunc' => 'content_532f20496c9be5_38187017',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532eda43e69052_36004769')) {function content_532eda43e69052_36004769($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/lib/other/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_532f20496c9be5_38187017')) {function content_532f20496c9be5_38187017($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/lib/other/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_modifier_truncate')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.truncate.php';
 ?><?php  $_smarty_tpl->tpl_vars["block"] = new Smarty_Variable; $_smarty_tpl->tpl_vars["block"]->_loop = false;
  $_smarty_tpl->tpl_vars["type"] = new Smarty_Variable;

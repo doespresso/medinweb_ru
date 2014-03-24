@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 14:59:10
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:25
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/common/styles.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:830056529532ebe7e7e47f8-59100633%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1711819602532f1d015f4fe8-24505416%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '830056529532ebe7e7e47f8-59100633',
+  'nocache_hash' => '1711819602532f1d015f4fe8-24505416',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ebe7e82a470_72682388',
+  'unifunc' => 'content_532f1d0168ee32_55821541',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ebe7e82a470_72682388')) {function content_532ebe7e82a470_72682388($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.styles.php';
+<?php if ($_valid && !is_callable('content_532f1d0168ee32_55821541')) {function content_532f1d0168ee32_55821541($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.styles.php';
 if (!is_callable('smarty_function_style')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.style.php';
 if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 ?><?php $_smarty_tpl->smarty->_tag_stack[] = array('styles', array()); $_block_repeat=true; echo smarty_block_styles(array(), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>

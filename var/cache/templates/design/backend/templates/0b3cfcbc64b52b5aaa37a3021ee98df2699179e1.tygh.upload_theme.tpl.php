@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:09:19
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 23:19:47
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/themes/components/upload_theme.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:358398233532ec0dfeaa449-56593932%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1595727756532f33d3d67f19-11705803%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '358398233532ec0dfeaa449-56593932',
+  'nocache_hash' => '1595727756532f33d3d67f19-11705803',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec0dfee3c90_45630054',
+  'unifunc' => 'content_532f33d3dc8bd0_29317384',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec0dfee3c90_45630054')) {function content_532ec0dfee3c90_45630054($_smarty_tpl) {?><?php
+<?php if ($_valid && !is_callable('content_532f33d3dc8bd0_29317384')) {function content_532f33d3dc8bd0_29317384($_smarty_tpl) {?><?php
 fn_preload_lang_vars(array('install_theme_text','upload'));
 ?>
 <div class="install-addon" id="theme_upload_container">

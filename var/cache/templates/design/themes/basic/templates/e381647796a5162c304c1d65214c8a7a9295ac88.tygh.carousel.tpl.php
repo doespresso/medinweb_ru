@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:07:38
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 12:21:57
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/addons/banners/blocks/carousel.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:410696166532ec07a74f6b5-05606263%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1955485696532f1d0c81cd26-46058779%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e381647796a5162c304c1d65214c8a7a9295ac88' => 
     array (
       0 => '/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/addons/banners/blocks/carousel.tpl',
-      1 => 1395572335,
+      1 => 1395649315,
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '410696166532ec07a74f6b5-05606263',
+  'nocache_hash' => '1955485696532f1d0c81cd26-46058779',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_532f1d0ca348d0_81381083',
   'variables' => 
   array (
     'runtime' => 0,
@@ -24,16 +26,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'auth' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec07a96b553_48246393',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec07a96b553_48246393')) {function content_532ec07a96b553_48246393($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
+<?php if ($_valid && !is_callable('content_532f1d0ca348d0_81381083')) {function content_532f1d0ca348d0_81381083($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
 ?><?php
 fn_preload_lang_vars(array('prev_page','next','prev_page','next'));
 ?>
 <?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&@constant('AREA')=="C") {?><?php $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start(); ?>
 
 <?php if ($_smarty_tpl->tpl_vars['items']->value) {?>
+</div>
+</div>
+</div>
     <div id="banner_slider_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
 " class="banners owl-carousel">
         <?php  $_smarty_tpl->tpl_vars["banner"] = new Smarty_Variable; $_smarty_tpl->tpl_vars["banner"]->_loop = false;
@@ -43,12 +46,22 @@ foreach ($_from as $_smarty_tpl->tpl_vars["banner"]->key => $_smarty_tpl->tpl_va
 $_smarty_tpl->tpl_vars["banner"]->_loop = true;
  $_smarty_tpl->tpl_vars["key"]->value = $_smarty_tpl->tpl_vars["banner"]->key;
 ?>
-            <div class="item">
+            <div class="item" style="background-image: url(<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['banner']->value['main_pair']['icon']['image_path'], ENT_QUOTES, 'UTF-8');?>
+);">
                 <?php if ($_smarty_tpl->tpl_vars['banner']->value['type']=="G"&&$_smarty_tpl->tpl_vars['banner']->value['main_pair']['image_id']) {?>
+                  <div class="banner-wrapper">
+                    <div class="container">
+                    <div class="row">
+                    <div class="span16">
+                      <h3><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['banner']->value['banner'], ENT_QUOTES, 'UTF-8');?>
+</h3>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
                     <?php if ($_smarty_tpl->tpl_vars['banner']->value['url']!='') {?><a class="banner-link" href="<?php echo htmlspecialchars(fn_url($_smarty_tpl->tpl_vars['banner']->value['url']), ENT_QUOTES, 'UTF-8');?>
 " <?php if ($_smarty_tpl->tpl_vars['banner']->value['target']=="B") {?>target="_blank"<?php }?>><?php }?>
-                        <?php echo $_smarty_tpl->getSubTemplate ("common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('images'=>$_smarty_tpl->tpl_vars['banner']->value['main_pair']), 0);?>
-
+                        
                     <?php if ($_smarty_tpl->tpl_vars['banner']->value['url']!='') {?></a><?php }?>
                 <?php } else { ?>
                     <div class="wysiwyg-content">
@@ -59,6 +72,9 @@ $_smarty_tpl->tpl_vars["banner"]->_loop = true;
             </div>
         <?php } ?>
     </div>
+<div class="container content-grid">
+<div class="row">
+<div class="span16 main-content-grid">
 <?php }?>
 
 <script type="text/javascript">
@@ -71,7 +87,7 @@ $_smarty_tpl->tpl_vars["banner"]->_loop = true;
             slider.owlCarousel({
                 items: 1,
                 singleItem : true,
-                slideSpeed: <?php echo htmlspecialchars((($tmp = @$_smarty_tpl->tpl_vars['block']->value['properties']['speed'])===null||$tmp==='' ? 400 : $tmp), ENT_QUOTES, 'UTF-8');?>
+                slideSpeed: <?php echo htmlspecialchars((($tmp = @$_smarty_tpl->tpl_vars['block']->value['properties']['speed'])===null||$tmp==='' ? 700 : $tmp), ENT_QUOTES, 'UTF-8');?>
 ,
                 autoPlay: '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['properties']['delay']*(($tmp = @1000)===null||$tmp==='' ? false : $tmp), ENT_QUOTES, 'UTF-8');?>
 ',
@@ -109,6 +125,9 @@ if (!empty($_capture_buffer)) {
 <?php }?><?php }?><?php } else { ?>
 
 <?php if ($_smarty_tpl->tpl_vars['items']->value) {?>
+</div>
+</div>
+</div>
     <div id="banner_slider_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['snapping_id'], ENT_QUOTES, 'UTF-8');?>
 " class="banners owl-carousel">
         <?php  $_smarty_tpl->tpl_vars["banner"] = new Smarty_Variable; $_smarty_tpl->tpl_vars["banner"]->_loop = false;
@@ -118,12 +137,22 @@ foreach ($_from as $_smarty_tpl->tpl_vars["banner"]->key => $_smarty_tpl->tpl_va
 $_smarty_tpl->tpl_vars["banner"]->_loop = true;
  $_smarty_tpl->tpl_vars["key"]->value = $_smarty_tpl->tpl_vars["banner"]->key;
 ?>
-            <div class="item">
+            <div class="item" style="background-image: url(<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['banner']->value['main_pair']['icon']['image_path'], ENT_QUOTES, 'UTF-8');?>
+);">
                 <?php if ($_smarty_tpl->tpl_vars['banner']->value['type']=="G"&&$_smarty_tpl->tpl_vars['banner']->value['main_pair']['image_id']) {?>
+                  <div class="banner-wrapper">
+                    <div class="container">
+                    <div class="row">
+                    <div class="span16">
+                      <h3><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['banner']->value['banner'], ENT_QUOTES, 'UTF-8');?>
+</h3>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
                     <?php if ($_smarty_tpl->tpl_vars['banner']->value['url']!='') {?><a class="banner-link" href="<?php echo htmlspecialchars(fn_url($_smarty_tpl->tpl_vars['banner']->value['url']), ENT_QUOTES, 'UTF-8');?>
 " <?php if ($_smarty_tpl->tpl_vars['banner']->value['target']=="B") {?>target="_blank"<?php }?>><?php }?>
-                        <?php echo $_smarty_tpl->getSubTemplate ("common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('images'=>$_smarty_tpl->tpl_vars['banner']->value['main_pair']), 0);?>
-
+                        
                     <?php if ($_smarty_tpl->tpl_vars['banner']->value['url']!='') {?></a><?php }?>
                 <?php } else { ?>
                     <div class="wysiwyg-content">
@@ -134,6 +163,9 @@ $_smarty_tpl->tpl_vars["banner"]->_loop = true;
             </div>
         <?php } ?>
     </div>
+<div class="container content-grid">
+<div class="row">
+<div class="span16 main-content-grid">
 <?php }?>
 
 <script type="text/javascript">
@@ -146,7 +178,7 @@ $_smarty_tpl->tpl_vars["banner"]->_loop = true;
             slider.owlCarousel({
                 items: 1,
                 singleItem : true,
-                slideSpeed: <?php echo htmlspecialchars((($tmp = @$_smarty_tpl->tpl_vars['block']->value['properties']['speed'])===null||$tmp==='' ? 400 : $tmp), ENT_QUOTES, 'UTF-8');?>
+                slideSpeed: <?php echo htmlspecialchars((($tmp = @$_smarty_tpl->tpl_vars['block']->value['properties']['speed'])===null||$tmp==='' ? 700 : $tmp), ENT_QUOTES, 'UTF-8');?>
 ,
                 autoPlay: '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['block']->value['properties']['delay']*(($tmp = @1000)===null||$tmp==='' ? false : $tmp), ENT_QUOTES, 'UTF-8');?>
 ',

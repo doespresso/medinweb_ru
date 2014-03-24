@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 14:59:14
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 10:14:52
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/common/daterange_picker.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:870190833532ebe827c6e20-17993616%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:669501822532fcd5c682111-08814116%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '870190833532ebe827c6e20-17993616',
+  'nocache_hash' => '669501822532fcd5c682111-08814116',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ebe829af7e0_30478862',
+  'unifunc' => 'content_532fcd5c88c3e9_08573565',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ebe829af7e0_30478862')) {function content_532ebe829af7e0_30478862($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_532fcd5c88c3e9_08573565')) {function content_532fcd5c88c3e9_08573565($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 ?><?php
 fn_preload_lang_vars(array('month_name_abr_1','month_name_abr_2','month_name_abr_3','month_name_abr_4','month_name_abr_5','month_name_abr_6','month_name_abr_7','month_name_abr_8','month_name_abr_9','month_name_abr_10','month_name_abr_11','month_name_abr_12','weekday_abr_0','weekday_abr_1','weekday_abr_2','weekday_abr_3','weekday_abr_4','weekday_abr_5','weekday_abr_6','today','yesterday','last_n_days','last_n_days','this_month','last_month','apply','clear','from','to'));

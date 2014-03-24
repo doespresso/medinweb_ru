@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 14:59:13
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 10:14:51
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/index/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:27907584532ebe81bebf97-60171526%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2068650875532fcd5b767de0-32438158%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '27907584532ebe81bebf97-60171526',
+  'nocache_hash' => '2068650875532fcd5b767de0-32438158',
   'function' => 
   array (
     'get_orders' => 
@@ -68,9 +68,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ebe823c6e69_56345287',
+  'unifunc' => 'content_532fcd5c073ca5_96309537',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ebe823c6e69_56345287')) {function content_532ebe823c6e69_56345287($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
+<?php if ($_valid && !is_callable('content_532fcd5c073ca5_96309537')) {function content_532fcd5c073ca5_96309537($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/block.hook.php';
 if (!is_callable('smarty_modifier_unpuny')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.unpuny.php';
 ?><?php
 fn_preload_lang_vars(array('previous_period','current_period','orders','sales','taxes','users_carts','order','by','no_data','recent_orders','statistics','active_products','out_of_stock_products','registered_customers','categories','vendors','web_pages','order_by_status','status','qty','shipping','recent_activity','order','dashboard','installer_complete_title','admin_panel','settings_wizard','storefront'));

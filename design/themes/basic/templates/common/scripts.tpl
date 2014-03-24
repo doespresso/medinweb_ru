@@ -9,6 +9,7 @@
 {script src="js/lib/jqueryui/jquery-ui.custom.min.js"}
 {script src="js/lib/tools/tooltip.min.js"}
 {script src="js/lib/appear/jquery.appear-1.1.1.js"}
+{*{script src="js/lib/Swiper/lib/idangerous.swiper.js"}*}
 
 <script type="text/javascript">
 //<![CDATA[

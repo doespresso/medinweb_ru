@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:07:48
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 00:39:49
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/views/block_manager/render/location.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:103732307532ec084417385-32278984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1983452648532f1d11d769e2-06493874%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '614f3510f7d72f2ee3bcec2cb7bad7b0ebc4bee0' => 
     array (
       0 => '/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/views/block_manager/render/location.tpl',
-      1 => 1395572330,
+      1 => 1395607142,
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '103732307532ec084417385-32278984',
+  'nocache_hash' => '1983452648532f1d11d769e2-06493874',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_532f1d11e259c7_57757253',
   'variables' => 
   array (
     'containers' => 0,
@@ -23,12 +25,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'rdelim' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec0844c2465_96128278',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec0844c2465_96128278')) {function content_532ec0844c2465_96128278($_smarty_tpl) {?><?php
+<?php if ($_valid && !is_callable('content_532f1d11e259c7_57757253')) {function content_532f1d11e259c7_57757253($_smarty_tpl) {?><?php
 fn_preload_lang_vars(array('choose_your_country'));
 ?>
+<div class="top-header">
 <?php if ($_smarty_tpl->tpl_vars['containers']->value['top_panel']) {?>
     <div class="tygh-top-panel clearfix">
         <?php echo $_smarty_tpl->tpl_vars['containers']->value['top_panel'];?>
@@ -42,7 +43,11 @@ fn_preload_lang_vars(array('choose_your_country'));
 
     </div>
 <?php }?>
+</div>
 
+<div id="full-slider" class="full-slider">
+
+</div>
 <?php if ($_smarty_tpl->tpl_vars['containers']->value['content']) {?>
     <div class="tygh-content clearfix">
         <?php echo $_smarty_tpl->tpl_vars['containers']->value['content'];?>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:10:12
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:40
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/views/products/components/product_features_short_list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1870803608532ec1142f52c9-83275716%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1189217053532f1d108db5f6-87430193%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '1870803608532ec1142f52c9-83275716',
+  'nocache_hash' => '1189217053532f1d108db5f6-87430193',
   'function' => 
   array (
     'feature_value' => 
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec11462b527_62943669',
+  'unifunc' => 'content_532f1d10ccc5f6_27595142',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec11462b527_62943669')) {function content_532ec11462b527_62943669($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
+<?php if ($_valid && !is_callable('content_532f1d10ccc5f6_27595142')) {function content_532f1d10ccc5f6_27595142($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';
 ?><?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&@constant('AREA')=="C") {?><?php $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start(); ?><?php if (!is_callable('smarty_modifier_date_format')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.date_format.php';
 ?><?php if (!function_exists('smarty_template_function_feature_value')) {
     function smarty_template_function_feature_value($_smarty_tpl,$params) {

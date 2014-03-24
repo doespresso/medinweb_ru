@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 15:10:13
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-24 12:22:41
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/themes/basic/templates/common/tabsbox.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:377703261532ec11562f481-59074376%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1204232903532feb517a31f3-35310981%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '377703261532ec11562f481-59074376',
+  'nocache_hash' => '1204232903532feb517a31f3-35310981',
   'function' => 
   array (
   ),
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ec1158db724_51805889',
+  'unifunc' => 'content_532feb51b54479_23797359',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ec1158db724_51805889')) {function content_532ec1158db724_51805889($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_empty_tabs')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.empty_tabs.php';
+<?php if ($_valid && !is_callable('content_532feb51b54479_23797359')) {function content_532feb51b54479_23797359($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_empty_tabs')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.empty_tabs.php';
 if (!is_callable('smarty_function_script')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.script.php';
 if (!is_callable('smarty_modifier_in_array')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/modifier.in_array.php';
 if (!is_callable('smarty_function_set_id')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.set_id.php';

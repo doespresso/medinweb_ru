@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 14:59:10
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:25
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/views/statuses/components/styles.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:631207717532ebe7e85da39-69366840%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2007491702532f1d016c9f47-47519932%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '631207717532ebe7e85da39-69366840',
+  'nocache_hash' => '2007491702532f1d016c9f47-47519932',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ebe7e8ceb90_36530052',
+  'unifunc' => 'content_532f1d017af741_13331010',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ebe7e8ceb90_36530052')) {function content_532ebe7e8ceb90_36530052($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.style.php';
+<?php if ($_valid && !is_callable('content_532f1d017af741_13331010')) {function content_532f1d017af741_13331010($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include '/Users/jd/servers/LOCALHOST/medinweb.ru/public/app/functions/smarty_plugins/function.style.php';
 ?><?php $_smarty_tpl->_capture_stack[0][] = array("styles", null, null); ob_start(); ?>
 <?php $_smarty_tpl->tpl_vars['type'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['type']->value)===null||$tmp==='' ? @constant('STATUSES_ORDER') : $tmp), null, 0);?>
 <?php $_smarty_tpl->tpl_vars['statuses'] = new Smarty_variable(fn_get_statuses($_smarty_tpl->tpl_vars['type']->value), null, 0);?>

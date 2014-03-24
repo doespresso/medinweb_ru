@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 14:59:10
+<?php /* Smarty version Smarty-3.1.15, created on 2014-03-23 21:42:25
          compiled from "/Users/jd/servers/LOCALHOST/medinweb.ru/public/design/backend/templates/addons/twigmo/hooks/index/styles.post.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:417881618532ebe7e8eba43-34758560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:831008884532f1d019421b1-13005196%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '417881618532ebe7e8eba43-34758560',
+  'nocache_hash' => '831008884532f1d019421b1-13005196',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_532ebe7e8edb23_60373332',
+  'unifunc' => 'content_532f1d01966b67_91762307',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_532ebe7e8edb23_60373332')) {function content_532ebe7e8edb23_60373332($_smarty_tpl) {?><link href="design/backend/css/addons/twigmo/styles.css" rel="stylesheet" type="text/css" /><?php }} ?>
+<?php if ($_valid && !is_callable('content_532f1d01966b67_91762307')) {function content_532f1d01966b67_91762307($_smarty_tpl) {?><link href="design/backend/css/addons/twigmo/styles.css" rel="stylesheet" type="text/css" /><?php }} ?>
